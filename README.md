@@ -71,7 +71,7 @@ You can train from scratch or finetune the model by putting pretrained weights i
 Example commands:
 
 ```bash
-python tools/train_net.py --config-file <PATH_TO_CONFIG_FILE> --num_gpus 8
+python tools/train_net.py --config-file <PATH_TO_CONFIG_FILE> --num-gpus 8
 ```
 
 All configuration files can be found in `configs/TESTR`, excluding those files named `Base-xxxx.yaml`.
