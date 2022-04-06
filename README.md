@@ -249,6 +249,8 @@ python tools/train_net.py --config-file <PATH_TO_CONFIG_FILE> --eval-only MODEL.
 </tbody>
 </table>
 
+The `Lite` models only use the image feature from the last stage of ResNet.
+
 | Method           | Annotation Type | Lexicon | Det-P  | Det-R  | Det-F  | E2E-P  | E2E-R  | E2E-F  | Link                                                         |
 | ---------------- | --------------- | ------- | ------ | ------ | ------ | ------ | ------ | ------ | ------------------------------------------------------------ |
 | Pretrain (Lite)  | Polygonal       | None    | 90.28 | 72.58 | 80.47 | 59.49 | 50.22 | 54.46 | [OneDrive](https://ucsdcloud-my.sharepoint.com/:u:/g/personal/xiz102_ucsd_edu/EcG-WKHN7dlNnzUJ5g301goBNknB-_IyADfVoW9q8efIIA?e=8dHW3K) |
