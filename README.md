@@ -9,7 +9,7 @@ This repository is the official implementations for the following paper:
 <img src="figures/arch.svg" />
 
 ## Getting Started
-We use thw following environment in our experiments. It's recommended to install the dependencies via Anaconda
+We use the following environment in our experiments. It's recommended to install the dependencies via Anaconda
 
 + CUDA 11.3
 + Python 3.8
