@@ -2,7 +2,7 @@
 
 This repository is the official implementations for the following paper:
 
-[Text Spotting Transformers](https://arxiv.org/abs/2204.01918)
+[Text Spotting Transformers](https://openaccess.thecvf.com/content/CVPR2022/html/Zhang_Text_Spotting_Transformers_CVPR_2022_paper.html)
 
 [Xiang Zhang](https://xzhang.dev), Yongwen Su, [Subarna Tripathi](https://subarnatripathi.github.io), and [Zhuowen Tu](https://pages.ucsd.edu/~ztu/), CVPR 2022
 
@@ -258,13 +258,13 @@ The `Lite` models only use the image feature from the last stage of ResNet.
 
 ## Citation
 ```
-@misc{zhang2022text,
-      title={Text Spotting Transformers}, 
-      author={Xiang Zhang and Yongwen Su and Subarna Tripathi and Zhuowen Tu},
-      year={2022},
-      eprint={2204.01918},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@InProceedings{Zhang_2022_CVPR,
+    author    = {Zhang, Xiang and Su, Yongwen and Tripathi, Subarna and Tu, Zhuowen},
+    title     = {Text Spotting Transformers},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {9519-9528}
 }
 ```
 
