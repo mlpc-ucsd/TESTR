@@ -287,7 +287,7 @@ __global__ void ms_deformable_im2col_gpu_kernel(const int n,
 
         if (h_im > -1 && w_im > -1 && h_im < spatial_h && w_im < spatial_w)
         {
-          col = ms_deform_attn_im2col_bilinear(data_value_ptr, spatial_h, spatial_w, num_heads, channels, h_im, w_im, m_col, c_col) * weight;
+          col = ms_deform_attn_im2col_bilinear(data_value_ptr, spatial_h, spatial_w, num_heads, channels, h_im, w_im, m_col, c_col);
         }
 
         data_weight_ptr += 1;
